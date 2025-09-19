@@ -271,3 +271,13 @@ body {
     background-color: #e9ecef;  /* slightly darker gray */
     color: #a4123f;             /* highlight color */
 }
+
+
+.hover-card {
+    background-color: white;
+    transition: background-color 0.3s ease; /* smooth hover effect */
+}
+
+.hover-card:hover {
+    background-color: #f9fafb;
+}
