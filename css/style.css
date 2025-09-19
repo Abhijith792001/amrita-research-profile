@@ -81,19 +81,15 @@ body {
 .img-box {
     width: 35px;
     height: 35px;
-    background-color: #a4123f;
-    display: flex;
+    /* background-color: #a4123f; */
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     padding: 5px;
     border-radius: 8px;
-}
-
-.img-box img {
-    width: 100%;
-    height: 100%;
     object-fit: contain;
 }
+
 
 .profile-card-container {
     position: relative;
