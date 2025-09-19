@@ -38,7 +38,15 @@ body {
     font-size: 12px;
 }
 
+.margin-top-sm {
+    margin-top: 1rem;
+}
+
 @media (min-width: 992px) {
+    .margin-top-sm {
+        margin-top: 0;
+    }
+
     .nav-p {
         padding-left: 180px;
         padding-right: 180px;
@@ -238,4 +246,28 @@ body {
     color: #a4123f;
     border-radius: 16px;
     /* padding: 5px; */
+}
+
+
+/* Active tab (selected) */
+.nav-pills .nav-link.active {
+    background-color: #a4123f !important;  /* custom background */
+    color: #fff !important;                /* text color */
+    font-weight: 600;                      /* bold text */
+    border-radius: 8px;                    /* rounded look */
+}
+
+/* Non-active tabs (default state) */
+.nav-pills .nav-link {
+    background-color: #f8f9fa;  /* light gray background */
+    color: #333;                /* dark text */
+    border-radius: 8px;
+    margin-right: 6px;          /* spacing between tabs */
+    transition: all 0.2s ease-in-out;
+}
+
+/* Hover effect for non-active */
+.nav-pills .nav-link:hover {
+    background-color: #e9ecef;  /* slightly darker gray */
+    color: #a4123f;             /* highlight color */
 }
